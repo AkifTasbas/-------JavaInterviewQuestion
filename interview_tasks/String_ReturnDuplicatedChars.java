@@ -10,9 +10,7 @@ public class String_ReturnDuplicatedChars {
         create method return duplicated unique value
      */
 
-    public static void main(String[] args) {
-        System.out.println(test2("inteerrrviiew"));
-    }
+
 
     //solution1
     public static String test(String str){
