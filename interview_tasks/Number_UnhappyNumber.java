@@ -1,11 +1,10 @@
-public class Number_HappyNumber {
+public class Number_UnhappyNumber {
 
     /*
-    1. write a function that can check if a number is a Happy Number
+    1. write a function that can check if a number is an unhappy number
 
      */
-
-    public static boolean happyNumber(int n){
+    public static boolean unhappyNumber(int n){
 
         while(n != 1 && n != 4){
             int r = 0, sum = 0;
@@ -19,7 +18,8 @@ public class Number_HappyNumber {
             n = sum;
         }
 
-        return n == 1;
+        return n ==4;
     }
+
 
 }
