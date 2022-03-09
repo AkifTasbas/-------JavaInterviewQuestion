@@ -4,22 +4,21 @@ public class Number_HappyNumber {
     write a function that can check if a number is a Happy Number
      */
 
+    public static boolean happyNumber(int n){
 
-    public static boolean happyNumber(int num){
-
-        while(num != 1 && num != 4){
+        while(n != 1 && n != 4){
             int r = 0, sum = 0;
 
-            while(num > 0){
-                r = num%10;
+            while(n > 0){
+                r = n%10;
                 sum = sum + (r*r);
-                num = num/10;
+                n = n/10;
             }
 
-            num = sum;
+            n = sum;
         }
 
-        return num == 1;
+        return n == 1;
     }
 
 }
