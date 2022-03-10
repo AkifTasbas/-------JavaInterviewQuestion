@@ -1,7 +1,3 @@
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-
 public class Number_SumAllDigitsUntilOneDigit {
 
     /*
@@ -21,7 +17,7 @@ public class Number_SumAllDigitsUntilOneDigit {
     public static void main(String[] args) {
 
         int number = 45659;
-        while(true){
+        while (true) {
             int sum = 0;
             while (number > 0) {
                 int digit = number % 10;
@@ -30,39 +26,12 @@ public class Number_SumAllDigitsUntilOneDigit {
             }
             number = sum;
             System.out.println(sum);
-            if(sum < 9){
+            if (sum < 9) {
                 break;
             }
         }
 
-        /*
-        int number = 45659;
-        do{
-            int sum = 0;
-            List<Integer> digits = new ArrayList<>();
-            while (number > 0) {
-                int digit = number % 10;
-                number /= 10;
-                digits.add(digit);
-            }
-            Collections.reverse(digits);
-            for (Integer each : digits) {
-                sum += each;
-            }
-            number = sum;
-            System.out.println(sum);
-        }while(sum > 9);
-*/
-
-
-
-
-
-
-
-
     }
-
 
 
 }
