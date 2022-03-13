@@ -19,7 +19,7 @@ public class Array_LargestRectangularArea {
         for(int w = 1; w <= arr.length; w++){
             for(int l = 0; (l+w) -1 < arr.length; l++){
                 int r = l + w - 1; //adjustment
-                if(w == 1){
+                if(w == 1){ // 10 * 1 ===> 10
                     temp[l][l] = arr[l];
                     max = Math.max(max, temp[l][l]);
                 } else {
