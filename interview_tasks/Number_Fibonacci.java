@@ -1,6 +1,6 @@
 public class Number_Fibonacci {
 
-    public int fibonacci(int num) {
+    public static int fibonacci(int num) {
 
         int result = 0;
         int j = 0;

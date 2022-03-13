@@ -8,7 +8,7 @@ public class String_ReverseSecondWord {
      */
 
 
-    public String reverseSecondWord(String sentence) {
+    public static String reverseSecondWord(String sentence) {
         String[] words = sentence.split(" ");
         String reversed = "";
 

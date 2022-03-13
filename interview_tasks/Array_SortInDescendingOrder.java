@@ -6,7 +6,7 @@ public class Array_SortInDescendingOrder {
         Write a return method that can sort an int array in descending order without using the sort method
      */
 
-    public int[] sortingArrayAsc(int[] arr) {
+    public static int[] sortingArrayAsc(int[] arr) {
 
         int[] result = Arrays.copyOfRange(arr, 0, arr.length);
 

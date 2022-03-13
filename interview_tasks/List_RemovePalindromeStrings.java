@@ -8,7 +8,7 @@ public class List_RemovePalindromeStrings {
     */
 
     //solution 1:
-    public List<String> removePalindromes1(List<String> list) {
+    public static List<String> removePalindromes1(List<String> list) {
         Iterator<String> it = list.iterator();
         while (it.hasNext()) {
             String word = it.next();

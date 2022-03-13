@@ -4,7 +4,7 @@ public class Array_FindMaximum {
      */
 
 
-    public int maxValue(int[] n) {
+    public static int maxValue(int[] n) {
 
         int max = Integer.MIN_VALUE;
 

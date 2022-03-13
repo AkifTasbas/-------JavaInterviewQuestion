@@ -8,7 +8,7 @@ public class Number_FINRA_DivisibleBy3_5 {
      */
 
 
-    public void FINRA1() {
+    public static void FINRA1() {
 
         String result = "";
 

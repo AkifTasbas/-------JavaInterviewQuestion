@@ -7,7 +7,7 @@ public class String_RemoveExtraSpaces {
 
      */
 
-    public String removeExtraSpace(String sentence) {
+    public static String removeExtraSpace(String sentence) {
 
         String[] words = sentence.trim().split(" ");
         String result = "";

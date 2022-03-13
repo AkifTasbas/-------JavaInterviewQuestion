@@ -9,7 +9,7 @@ public class Number_SumOfDigitsOfInteger {
      */
 
 
-    public int sumOfDigits(int number) {
+    public static int sumOfDigits(int number) {
 
         int sum = 0;
 

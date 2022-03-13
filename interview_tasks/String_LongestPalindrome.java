@@ -8,7 +8,7 @@ public class String_LongestPalindrome {
 
 
     //Solution 1: (easier but involves using data structure)
-    public String longestPalindrome1(String str) {
+    public static String longestPalindrome1(String str) {
         String longest = "";
         ArrayList<String> list = new ArrayList<>();
 

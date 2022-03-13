@@ -12,7 +12,7 @@ public class String_PassWordValidation {
      */
 
 
-    public boolean passwordIsValid(String password) {
+    public static boolean passwordIsValid(String password) {
 
         boolean hasLowerCaseChar = password.matches("(.*[a-z].*)"),
                 hasUpperCaseChar = password.matches("(.*[A-Z].*)"),

@@ -22,7 +22,7 @@ public class Number_DivisibleBy3_5_15 {
     */
 
 
-    public void solution(int n) {
+    public static void solution(int n) {
         String divisibleBy15 = "";
         String divisibleBy5 = "";
         String divisibleBy3 = "";

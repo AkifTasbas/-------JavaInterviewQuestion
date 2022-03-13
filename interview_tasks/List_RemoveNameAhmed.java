@@ -11,7 +11,7 @@ public class List_RemoveNameAhmed {
 
 
     // solution 1
-    public List<String> remove1(List<String> names) {
+    public static List<String> remove1(List<String> names) {
         Iterator<String> it = names.iterator();
         while (it.hasNext()) {
             if (it.next().equals("Ahmed"))
@@ -22,14 +22,14 @@ public class List_RemoveNameAhmed {
 
 
     // solution 2
-    public List<String> remove2(List<String> names) {
+    public static List<String> remove2(List<String> names) {
         names.removeAll(Arrays.asList("Ahmed"));
         return names;
     }
 
 
     // solution 3
-    public List<String> remove3(List<String> names) {
+    public static List<String> remove3(List<String> names) {
         names.removeIf(name -> name.equals("Ahmed"));
         return names;
     }

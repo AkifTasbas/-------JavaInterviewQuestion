@@ -6,7 +6,7 @@ public class String_UniqueCharacters {
 
      */
 
-    public String unique(String str) {
+    public static String unique(String str) {
         String[] arr = str.split("");
         String unique1 = "";
 

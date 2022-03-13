@@ -12,7 +12,7 @@ public class Array_SumOfLeftEqualToRight {
 
 
     // solution 1: (If there is only one such an item)
-    public int equilibrium1(int[] array) {
+    public static int equilibrium1(int[] array) {
         int result = 0;
 
         for (int i = 1; i < array.length; i++) {

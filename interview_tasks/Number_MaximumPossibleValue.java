@@ -17,7 +17,7 @@ public class Number_MaximumPossibleValue {
     not be the focus of the assessment.
      */
 
-    public int solution(int N) {
+    public static int solution(int N) {
         String s = "" + Math.abs(N);
         int max = Integer.valueOf(s + 5);
         if (N > 0) {

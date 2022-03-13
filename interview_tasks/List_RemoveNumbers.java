@@ -9,7 +9,7 @@ public class List_RemoveNumbers {
 
 
     // solution 1
-    public List<Integer> remove1(List<Integer> list){
+    public static List<Integer> remove1(List<Integer> list){
 
         Iterator<Integer> it = list.iterator();
 

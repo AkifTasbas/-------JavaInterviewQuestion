@@ -5,7 +5,7 @@ public class String_Reverse {
         Ex: Reverse("ABCD"); ==> DCBA
      */
 
-    public String StrReverse(String str) {
+    public static String StrReverse(String str) {
 
         String reverse="";
 

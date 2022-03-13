@@ -11,7 +11,7 @@ public class String_FrequencyOfCharacters {
 
 
     // solution 1
-    public String frequencyOfChars1(String str) {
+    public static String frequencyOfChars1(String str) {
         String expectedResult = "";
         int j = 0;
         while (j < str.length()) {

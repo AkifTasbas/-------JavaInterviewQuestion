@@ -7,7 +7,7 @@ public class List_MoveAllZerosToTheEnd {
     write a program that can move all the zeros to the end of the List of integers
      */
 
-    public List<Integer> moveZerosToTheEnd(List<Integer> list) {
+    public static List<Integer> moveZerosToTheEnd(List<Integer> list) {
         int originalSize = list.size();
         list.removeAll(Arrays.asList(0));
         int newSize = list.size();

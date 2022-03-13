@@ -4,7 +4,7 @@ public class Number_Prime {
         Write a method that can check if a number is prime or not
      */
 
-    public boolean primeNumber(int num) {
+    public static boolean primeNumber(int num) {
         if (num < 2) {
             return false;
         }

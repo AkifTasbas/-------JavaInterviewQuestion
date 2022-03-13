@@ -10,7 +10,7 @@ public class String_FrequencyOfCharactersInSortedManner {
             Output: A2B1C6D3
      */
 
-    public String frequencyOfCharacterInSortedManner(String str) {
+    public static String frequencyOfCharacterInSortedManner(String str) {
         TreeMap<String, Integer> map = new TreeMap<>();
 
         for (String each : str.split("")) {

@@ -12,7 +12,7 @@ public class String_SortLettersAndNumbers {
 
      */
 
-    public String sortLettersAndNumbers(String str) {
+    public static String sortLettersAndNumbers(String str) {
 
         String temp = "";
 

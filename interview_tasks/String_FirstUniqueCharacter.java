@@ -4,7 +4,7 @@ public class String_FirstUniqueCharacter {
     write a program that can return the first non-repeated character from a string
      */
 
-    public char firstNonRepeatedChar(String str) {
+    public static char firstNonRepeatedChar(String str) {
 
         for (int i = 0; i < str.length(); i++) {
 

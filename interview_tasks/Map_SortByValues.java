@@ -9,7 +9,7 @@ public class Map_SortByValues {
         Write a method that can sort the map by values
      */
 
-    public Map<String, Integer> sortByValue(Map<String, Integer> map) {
+    public static Map<String, Integer> sortByValue(Map<String, Integer> map) {
         List<Map.Entry<String, Integer>> list = new ArrayList<>(map.entrySet());
         list.sort(Map.Entry.comparingByValue());
 

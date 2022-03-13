@@ -9,7 +9,7 @@ public class Array_SumUpTo0 {
         For N = 3 one of the possible answers is [-1,0,1] (but there are many more correct answers).
      */
 
-    public int[] solution(int N) {
+    public static int[] solution(int N) {
 
         int[] result = new int[N];
         int sum = 0;

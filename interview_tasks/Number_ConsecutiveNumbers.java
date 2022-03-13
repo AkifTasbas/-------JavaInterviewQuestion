@@ -30,7 +30,7 @@ public class Number_ConsecutiveNumbers {
                                     ....
      */
 
-    public void solution(int N) {
+    public static void consecutiveNums(int N) {
 
         String result = "";
 

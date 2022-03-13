@@ -9,7 +9,7 @@ public class Array_RemoveDuplicates {
 
 
     // solution 1
-    public int[] removeDuplicates(int[] array){
+    public static int[] removeDuplicates(int[] array){
         return Arrays.stream(array).distinct().toArray();
     }
 

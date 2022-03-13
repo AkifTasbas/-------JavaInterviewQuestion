@@ -4,7 +4,7 @@ public class String_RemoveDuplicates {
             Ex: removeDup("AAABBBCCC") ==> ABC
      */
 
-    public String removeDup(String str) {
+    public static String removeDup(String str) {
         String result = "";
 
         for (int i = 0; i < str.length(); i++) {
